@@ -7,7 +7,7 @@ import CardText from 'react-bootstrap/CardText';
 
 const Player = ({ name, team, nationality, jerseyNumber, age, imageUrl }) => {
   return (
-    <Card style={{ width: '18rem', margin: '24px', border: 'none', borderRadius: '20px', padding: '20px',backgroundColor:'#ffd700' }}>
+    <Card style={{ width: '18rem', margin: '24px', border: 'none', borderRadius: '20px', padding: '20px',backgroundColor:'#ffd700', boxShadow: '10px 30px 20px rgba(255, 215, 0, 0.2)' }}>
       <CardImg style={{borderRadius: '10px', textAlign:'center'}} variant="top" src={imageUrl} alt={name} />
       <CardBody>
         <CardTitle style={{textAlign:'center'}}>{name}</CardTitle>
